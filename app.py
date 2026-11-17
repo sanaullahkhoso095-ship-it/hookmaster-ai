@@ -429,21 +429,16 @@ with st.sidebar:
     st.caption("Powered by Google Gemini 2.5 Flash")
 
 
+
 # ==========================================================
 # 6. MAIN HEADER
 # ==========================================================
 
 st.markdown("""
 <div class="hero">
-
     <h1>🎬 HookMaster AI</h1>
-
     <p>Viral Reels & Shorts Script Writer</p>
-
-    <p>
-        Turn your ideas into attention-grabbing video scripts.
-    </p>
-
+    <p>Turn your ideas into attention-grabbing video scripts.</p>
 </div>
 """, unsafe_allow_html=True)
 
