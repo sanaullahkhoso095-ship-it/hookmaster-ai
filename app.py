@@ -661,30 +661,21 @@ if st.session_state.get("generated_script"):
 
 
 
+
 # ==========================================================
 # 12. FOOTER
 # ==========================================================
 
-st.markdown("---")
+st.divider()
 
 st.markdown(
-    """
-    <div style="
-        text-align: center;
-        color: #94a3b8;
-        font-size: 13px;
-        padding: 15px 0 5px 0;
-        font-family: Inter, sans-serif;
-    ">
-        HookMaster AI © 2026 | Powered by Google Gemini
-    </div>
-    """,
-    unsafe_allow_html=True
+    "HookMaster AI © 2026 | Powered by Google Gemini"
 )
 
 st.caption(
     "Create smarter. Capture attention. Tell better stories."
 )
+
 
     Create smarter. Capture attention. Tell better stories.
 
