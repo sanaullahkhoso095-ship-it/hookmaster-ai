@@ -662,22 +662,13 @@ if st.session_state.get("generated_script"):
 
 
 
+
 # ==========================================================
 # 12. FOOTER
 # ==========================================================
 
 st.divider()
 
-st.markdown(
-    "HookMaster AI © 2026 | Powered by Google Gemini"
-)
+st.markdown("HookMaster AI © 2026 | Powered by Google Gemini")
 
-st.caption(
-    "Create smarter. Capture attention. Tell better stories."
-)
-
-
-    Create smarter. Capture attention. Tell better stories.
-
-</div>
-""", unsafe_allow_html=True)
+st.caption("Create smarter. Capture attention. Tell better stories.")
